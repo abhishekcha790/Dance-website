@@ -1,0 +1,64 @@
+//- index.pug
+doctype html
+html
+  head
+    title Abhi's Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul 
+         div#logo 
+           img(src="/static/img/logo.png")
+           | ADA
+         li #[a(href="/") Home]
+         li #[a(href="/") About]
+         li #[a(href="/") Services]
+         li #[a(href="/contact.pug") Contact us]
+         li #[a(href="/") Our Sponsers]  
+
+    section#introSection 
+      div  Welcome to Abhi's Dance Academy
+      div.small Eat Sleep Dance Repeat 
+    
+    section#missionSection 
+      h2  Our Missions
+      div.card 
+        h3 Dance Perfection 
+        div.card-box 
+           div.card-img
+              img(src="/static/img/1.png")
+
+           div.card-container 
+           p This is the best Dance Academy in the world.
+      div.card 
+        h3 Dance the way you like 
+        div.card-box 
+           div.card-img
+              img(src="/static/img/2.png")
+
+           div.card-container 
+           p This is the best Dance Academy in the world.
+      div.card 
+       h3  Dance Teaching
+       div.card-box 
+           div.card-img
+              img(src="/static/img/1.png")
+
+           div.card-container 
+           p This is the best Dance Academy in the world. 
+      
+    section#sponcerSection 
+      h2 Our Sponcers 
+          div#sponser 
+            img(src="/static/img/logo1.png", alt="Sponser img",class="spimage")
+            img(src="/static/img/logo2.png", alt="Sponser img",class="spimage")
+            img(src="/static/img/logo3.png", alt="Sponser img",class="spimage")
+            img(src="/static/img/logo4.png", alt="Sponser img",class="spimage")
+
+
+    footer#footer 
+      | Copyright @ 2022  AbhiDanceAcademy.com | All rights reserved. 
+
+    script
+      include ../static/index.js

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.myinput{
+    width: 45%;
+    padding: 8px;
+    margin: 6px;
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+}
+
+.btn{
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.container h1{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+ 
+.container{
+    min-height: 75vh;
+    margin: 40px 0px;
+}
